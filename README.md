@@ -25,7 +25,7 @@ The solution is a prototype and participants will be the candidate with single u
 ```bash
 npm install
 ```
--Now run the server by running the following command:
+-run the server:
 ```bash
 npm start
 ```
