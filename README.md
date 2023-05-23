@@ -1,68 +1,56 @@
-# Video SDK No Code Prebuilt App for Angular
+<h2>BrixC</h2>
 
-## What is it?
+<br>This is devloped to take out a chat stream for analysis purpose<br>
+<br>
 
-This code sample demonstrates a one-to-one and group video call application built with [Video SDK RTC Prebuilt SDK](https://docs.videosdk.live/docs/guide/prebuilt-video-and-audio-calling/getting-started) and [Video SDK RTC JS SDK](https://docs.videosdk.live/docs/realtime-communication/sdk-reference/javascript-sdk/setup)
+The Challenge
+------------
 
-- Built for serverless video calling experience.
-- Scale it upto 5,000 participants with low code.
-- 10,000 minutes free on monthly basis.
-- Inbuilt video and audio quality optimization.
-- Inbuilt chat poll, whiteboard, Q and A support.
+Build a Microsoft Teams clone.
 
-## Features
+The solution is a prototype and participants will be the candidate with single user room.
 
-- [x] Completely Low code and serverless.
-- [x] Video API with real-time audio, video and data streams
-- [x] 5,000+ participants support
-- [x] Chat support with rich media.
-- [x] Screen sharing with HD and Full HD.
-- [x] Play realtime video in meeting
-- [x] Connect it with social media such as Facebook, Youtube etc (RTMP out support).
-- [x] Intelligent speaker switch
-- [x] Record your meetings on cloud
-- [x] Inbuilt support of whiteboard, poll and Q & A.
-- [x] Customize UI as per your needs.
+ Features:
+ 
+1. Switch audio on/off
+2. Switch video on/off
+4. Join an existing meeting from a code
+5. Adding own name to profile with which you join the meeting
+6. Chat updates
+9. Screenshare
+10. Collaborative whiteboard
+11. Leave meeting 
 
-## Browser Support
 
-Visit our official guide for [Browser Support](https://docs.videosdk.live/docs/realtime-communication/see-also/device-browser-support)
 
-## Prerequisites
 
-- node
-- npm
+-install dependencices:
+```bash
+npm install
+```
+-run the server:
+```bash
+npm start
+```
+The server should be running at <strong>localhost:3000</strong><br>
 
-## Getting started
+Technologies Used 
+-----------------
 
-1. In a separate folder, clone the repo
 
-   ```sh
-   git clone https://github.com/videosdk-live/videosdk-rtc-prebuilt-examples.git
-   cd angular
-   ```
+1. Node.js
+2. HTML 
+3. CSS 
+4. Bootstrap
+5. JavaScript
+6. WebRTC
+7. Socket.io
 
-2. Update server api url in `src/environment.ts` file if server running on different port
 
-   ```typescript
-   export const environment = {
-     production: false,
-     VIDEOSDK_API_KEY: "<API KEY>",
-   };
-   ```
 
-3. Install NPM packages
 
-   ```sh
-   npm install
-   ```
 
-4. Run the client
 
-   ```sh
-   npm run start
-   ```
 
-## Resources
 
-Visit, [https://www.videosdk.live/](https://www.videosdk.live/) to generate API key and secret.
+
