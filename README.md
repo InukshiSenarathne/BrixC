@@ -21,7 +21,7 @@ The solution is a prototype and participants will be the candidate with single u
 10. Collaborative whiteboard
 11. Leave meeting 
 
-
+-install dependencices:
 ```bash
 npm install
 ```
